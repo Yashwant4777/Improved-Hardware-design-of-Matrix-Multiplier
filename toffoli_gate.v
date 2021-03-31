@@ -1,0 +1,30 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 10.02.2021 18:22:42
+// Design Name: 
+// Module Name: toffoli_gate
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module toffoli_gate(
+    input a,b,c,
+    output p,q,r
+    );
+    assign p = a;
+    assign q = b;
+    assign r = (a&b)^c;
+endmodule
