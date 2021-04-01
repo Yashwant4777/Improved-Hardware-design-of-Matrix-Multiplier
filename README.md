@@ -5,3 +5,7 @@ As we know Multipliers are essential for DSP system to perform operations such a
 A Reversible logic gate is an m-input m-output (denoted by m x m) digital logic circuit that generate a unique output vector from each input vector and vice versa. The few design parameters used to evaluate the performance of the reversible circuit are Gate count, Constant inputs, Garbage outputs and Quantum cost etc.
 # Why was it neccessary to use reversible logic gates?
 To reduce quantum cost, garbage outputs and dissipation power we used reversible logic gates. The researcher R. Landauer demonstrated that during irreversible logic operations when each bit of information lost results in KTln2 joules of energy dissipation regardless of the underlying technology. Where K = Boltzmann’s constant and T = Temperature
+
+# Language Used:- Verilog HDL.
+# Simulation tool:- Xilinx Vivado
+# Board(FPGA) used:- Nexys DDR4
