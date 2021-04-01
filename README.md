@@ -6,6 +6,6 @@ A Reversible logic gate is an m-input m-output (denoted by m x m) digital logic 
 # Why was it neccessary to use reversible logic gates?
 To reduce quantum cost, garbage outputs and dissipation power we used reversible logic gates. The researcher R. Landauer demonstrated that during irreversible logic operations when each bit of information lost results in KTln2 joules of energy dissipation regardless of the underlying technology. Where K = Boltzmann’s constant and T = Temperature
 
-Language Used:- Verilog HDL.
-Simulation tool:- Xilinx Vivado
+Language Used:- Verilog HDL || 
+Simulation tool:- Xilinx Vivado || 
 Board(FPGA) used:- Nexys DDR4
